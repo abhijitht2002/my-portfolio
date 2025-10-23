@@ -6,9 +6,9 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div>
+    <div className="bg-[#f8faf9] min-h-screen">
       <Navbar />
-      <div className="bg-amber-950 max-w-6xl mx-auto flex gap-4 px-6">
+      <div className="flex gap-4 px-12 py-6">
         <ProfileCard />
         <Portfolio />
         <Contact />
