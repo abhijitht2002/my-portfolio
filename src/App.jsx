@@ -8,7 +8,8 @@ function App() {
   return (
     <div className="bg-[#f8faf9] min-h-screen">
       <Navbar />
-      <div className="flex gap-4 px-12 py-6">
+
+      <div className="flex flex-col lg:flex-row max-w-7xl w-full mx-auto gap-4 px-4 md:px-12 py-6 items-start justify-center">
         <ProfileCard />
         <Portfolio />
         <Contact />
