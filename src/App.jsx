@@ -6,7 +6,7 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div className="bg-[#f8faf9] min-h-screen flex flex-col">
+    <div className="bg-[#f8faf9] min-h-screen lg:h-screen flex flex-col">
       {/* Navbar stays on top */}
       <div className="sticky top-0 z-10 flex-shrink-0 bg-[#f8faf9]">
         <Navbar />
