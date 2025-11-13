@@ -25,7 +25,7 @@ function ProfileCard() {
       {/* profile pic */}
       <div className="relative inline-block">
         <img
-          src="https://media.licdn.com/dms/image/v2/D5603AQGLcPdrWl4-dg/profile-displayphoto-crop_800_800/B56ZmFIRe8JwAI-/0/1758875163408?e=1762992000&v=beta&t=iE36CUvlaGDWGKgD9oH2nrkydrDGpqt0VHPr6290OnE"
+          src="images/1758875163488.jpg"
           alt="profile"
           className="w-30 h-30 rounded-full object-cover"
           onContextMenu={(e) =>
